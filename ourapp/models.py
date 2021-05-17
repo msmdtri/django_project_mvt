@@ -5,7 +5,7 @@ class School(models.Model):
     name = models.CharField(max_length = 400)
 
     def __str__(self):
-      return self.name
+        return self.name
 
 class Certificate_type(models.Model):
     name = models.CharField(max_length = 400)
